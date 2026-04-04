@@ -76,4 +76,3 @@ The following insights were generated:
 
 ---
 
-## 📂 Project Structure

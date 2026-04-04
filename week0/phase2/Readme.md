@@ -1,11 +1,11 @@
-# 📊 Data Transformation & Analysis using PySpark
 
-## 🎯 Objective
+
+##  Objective
 The objective of this phase is to perform data transformations using **PySpark** and understand how SQL concepts like **joins** and **aggregations** are applied to real-world datasets.
 
 ---
 
-## 📌 Problem Summary
+##  Problem Summary
 In this project, customer and sales datasets were used to perform analysis and extract meaningful insights.
 
 ### Tasks Performed:
@@ -19,7 +19,7 @@ In this project, customer and sales datasets were used to perform analysis and e
 
 ---
 
-## ⚙️ Approach
+##  Approach
 - Loaded datasets using PySpark DataFrames  
 - Cleaned data by removing rows with null `customer_id`  
 - Applied transformations and aggregations  
@@ -28,7 +28,7 @@ In this project, customer and sales datasets were used to perform analysis and e
 
 ---
 
-## 🔑 Key Transformations Used
+##  Key Transformations Used
 - `groupBy()` → Grouping data  
 - `agg()` → Aggregations (sum, avg, count)  
 - `join()` → Combining datasets  
@@ -38,7 +38,7 @@ In this project, customer and sales datasets were used to perform analysis and e
 
 ---
 
-## 📈 Output / Results
+##  Output / Results
 The following insights were generated:
 - Total spending per customer  
 - Top 3 highest spending customers  
@@ -48,11 +48,11 @@ The following insights were generated:
 - Customers with more than one order  
 - Customers sorted by total spending  
 
-📁 All outputs are available in the **`outputs/`** folder.
+ All outputs are available in the **`outputs/`** folder.
 
 ---
 
-## 🛠️ Data Engineering Considerations
+## Data Engineering Considerations
 - Removed null values to ensure data accuracy  
 - Maintained consistent column naming  
 - Applied rounding to manage precision issues  
@@ -60,7 +60,7 @@ The following insights were generated:
 
 ---
 
-## ⚠️ Challenges Faced
+##  Challenges Faced
 - Confusion between similar column names (`order_amount` vs `total_amount`)  
 - Writing correct aggregation logic  
 - Managing decimal precision  
@@ -68,7 +68,7 @@ The following insights were generated:
 
 ---
 
-## 📚 Learnings
+## Learnings
 - Gained hands-on experience with PySpark transformations  
 - Understood joins and aggregations on real datasets  
 - Learned the importance of data cleaning  

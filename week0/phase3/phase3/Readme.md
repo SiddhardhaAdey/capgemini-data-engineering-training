@@ -62,3 +62,10 @@ All outputs are available in the OUTPUTS folder.
 
 ---
 
+## Project Structure
+
+solution/ # PySpark ETL implementation
+phase3_problem_statement/ # Problem description
+OUTPUTS/ # Output screenshots/results
+README.md # Project documentation
+

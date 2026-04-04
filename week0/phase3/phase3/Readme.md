@@ -1,4 +1,3 @@
-# End-to-End ETL using PySpark
 
 ## Objective
 Perform end-to-end data processing using PySpark by following the ETL (Extract, Transform, Load) approach and generating meaningful insights from the data.
